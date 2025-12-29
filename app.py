@@ -52,7 +52,7 @@ def load_models():
         label_encoders = joblib. load('label_encoders.pkl')
         scaler = joblib.load('scaler.pkl')
         median_vals = joblib.load('median_values.pkl')
-        unique_vals = joblib.load('unique_values. pkl')
+        unique_vals = joblib.load('unique_values.pkl')
         agg_stats = joblib.load('agg_stats.pkl')
         yield_stats = joblib.load('yield_stats.pkl')
         return model, features, label_encoders, scaler, median_vals, unique_vals, agg_stats, yield_stats
